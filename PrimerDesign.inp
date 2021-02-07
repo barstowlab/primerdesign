@@ -1,16 +1,13 @@
 
-verificationPrimerBaseDir = \
-/Users/buz/Desktop/OutputFiles/sudoku_analyze_7/verification_primers/
+verificationPrimerBaseDir = output/verification_primers/
 
 
 
-primerLocationFile = \
-/Users/buz/Dropbox (BarstowLab)/Documents/GTD/GTD Supporting Information/Sudoku Sequencing/SudokuSolver/Sudoku Spot Check 3/Analysis/Primer Designs/Primers to Design v2.csv
+primerLocationFile = input/Primers to Design v2.csv
 
 
-shewyGenomeGenBankFileName = \
-/Users/buz/Dropbox (BarstowLab)/BarstowLab Shared Folder/Reference/Sequences/Sudoku Sequences/Composite Shewanella Genome/Composite Shewanella Genome.gb
+shewyGenomeGenBankFileName = input/Composite Shewanella Genome.gb
 
 
-transposonSequenceFileName = \
-/Users/buz/Dropbox (BarstowLab)/BarstowLab Shared Folder/Reference/Sequences/Sudoku Sequences/Sudoku Sequences with HimarSeq1.2 and 2.4 Primers/Transposon Sequence.fa
+transposonSequenceFileName = input/Transposon Sequence.fa
+

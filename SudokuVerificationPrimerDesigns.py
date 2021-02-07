@@ -1,7 +1,6 @@
 #!/sw/bin/python3.4
 
 
-
 import pdb
 import re
 
@@ -16,7 +15,7 @@ FindATandTAPositions2, ImportInsertionLocationFile2, FindClosestRealDisruptionIn
 ReverseComplement, WriteFastaSequence, ensure_dir, WritePrimer3InputForDetectionPrimerSelection, \
 GenerateTrimmedGenomeSequence, ParsePrimer3DesignOutputFile
 
-from vectorOutput2 import generateOutputMatrixWithHeaders, writeOutputMatrix
+from vectorOutput import generateOutputMatrixWithHeaders, writeOutputMatrix
 
 
 # ------------------------------------------------------------------------------------------------ #
@@ -36,7 +35,7 @@ inputParameters = ['verificationPrimerBaseDir', 'shewyGenomeGenBankFileName', \
 # argv = sys.argv
 # inputParameterValues = get_input2(argv)
 
-inputParameterValues = get_input2(['','../../Input Files/PrimerDesign.inp'], inputParameters)
+inputParameterValues = get_input2(['','PrimerDesign.inp'], inputParameters)
 # ------------------------------------------------------------------------------------------------ #
 
 
